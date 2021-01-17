@@ -20,8 +20,8 @@ import (
 	"io"
 
 	"k8s.io/cli-runtime/pkg/kustomize/k8sdeps"
-	"sigs.k8s.io/kustomize/pkg/commands/build"
-	"sigs.k8s.io/kustomize/pkg/fs"
+	"sigs.k8s.io/kustomize/v3/pkg/commands/build"
+	"sigs.k8s.io/kustomize/v3/pkg/fs"
 )
 
 // RunKustomizeBuild runs kustomize build given a filesystem and a path
